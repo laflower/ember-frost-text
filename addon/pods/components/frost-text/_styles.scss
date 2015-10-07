@@ -1,0 +1,44 @@
+.frost-text {
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid $frost-color-grey-6;
+	font-size: $frost-font-size-2;
+	color: $frost-color-grey-1;
+	background-color: inherit;
+	cursor: text;
+}
+
+.frost-text.full {
+	width: 100%;
+}
+
+.frost-text.errored {
+	border-bottom: 1px solid $frost-color-danger;
+	color: $frost-color-danger;
+}
+
+.frost-text:disabled {
+	opacity: 0.5;
+}
+
+.frost-text:focus {
+	margin-bottom: -1px;
+	border-bottom: 2px solid $frost-color-blue-1;
+	outline: none;
+}
+
+.frost-text.errored:focus {
+	border-bottom-color: $frost-color-danger;
+}
+
+.frost-text:read-only {
+	border-bottom: none;
+}
+
+.frost-text:read-only {
+	cursor: default;
+}
+
+.frost-text:read-only:focus {
+	margin-bottom: 0;
+}
