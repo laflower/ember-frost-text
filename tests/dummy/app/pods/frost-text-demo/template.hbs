@@ -1,11 +1,11 @@
-{{!--<hr width="400" align="left">
+<hr width="400" align="left">
     <div class='dummy-header'>frost-text examples</div>
 <hr width="400" align="left">
 <br>
 
 <div class='dummy-header'>Basic</div>
 <div style="padding: 10px 20px;">
-	{{frost-text id="basic"}}
+	{{frost-text id="basic" autofocus=true}}
 </div>
 
 <div class='dummy-header'>Action</div>
@@ -20,14 +20,21 @@
 		<div class='text'>Toggle error</div>
 	{{/frost-button}}
 </div>
---}}
+
+<div class='dummy-header'>Errored - deprecated</div>
+<div style="padding: 10px 20px;">
+	{{frost-text id="errored" classNameBindings="errored"}}
+	{{#frost-button on-click=(action "toggleError") class="small secondary"}}
+        <div class='text'>Toggle error</div>
+	{{/frost-button}}
+</div>
+
 <div class='dummy-header'>Attributes - e.g. Disabled</div>
 <div style="padding: 10px 20px;">
-	{{frost-text 'disabled' id="disabled"}}
+	{{frost-text id="disabled" disabled=true}}
 </div>
-{{!--
+
 <div class='dummy-header'>Attributes - e.g. Read-only</div>
 <div style="padding: 10px 20px;">
-	{{frost-text readonly id="read-only"  class="read-only" value="Read only text"}}
+	{{frost-text id="read-only" readonly=true value="Read only text"}}
 </div>
---}}

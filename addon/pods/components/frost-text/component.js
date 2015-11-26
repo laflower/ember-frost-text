@@ -1,16 +1,8 @@
 import Ember from "ember";
 import _ from "lodash/lodash";
 
-const FrostText = Ember.TextField.extend({
+export default Ember.TextField.extend({
 	classNames: ["frost-text"],
-	classNameBindings: ['isDisabled:disabled'],
-	attributeBindings: [
-		'isDisabled:disabled'
-	],
-
-	isDisabled: Ember.computed('states.[]', function() {
-		return _.includes(this.get('states'), 'disabled');
-	}),
 
 	oninput: Ember.on("input", function() {
 		if (_.isFunction(this.attrs["on-input"])) {
@@ -18,10 +10,3 @@ const FrostText = Ember.TextField.extend({
 		}
 	})
 });
-
-FrostText.reopenClass({
-	positionalParams: 'states'
-});
-
-export default FrostText;
-

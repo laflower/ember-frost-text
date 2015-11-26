@@ -4,56 +4,48 @@
 <br>
 
 ### Interface
-###### <font color='#2196f3'>Actions</font> - `oninput`
-###### <font color='#4CAF50'>States (CSS)</font> - `disabled` / `errored` / `read-only`
+###### <font color='#2196f3'>Actions</font> - `on-input`
+###### <font color='#E91E63'>Attributes</font> - `value`  
+###### <font color='#4CAF50'>States (CSS)</font> - `disabled` / `error` / `readonly` / `autofocus`
 
 
 <br>
-
+#9C27B0 Context variables
+#00BCD4 Event variables
 ### Examples
 ###### <font color='#9C27B0'>State instance variables</font>
 
-###### default
+###### autofocus
 <pre><code>
-&lt;div&gt;
-	{{frost-text id="basic"}}
-&lt;/div&gt;
+	{{frost-text id="basic" <font color='#4CAF50'>autofocus</font>=true}}
 </code></pre>
 
 <br>
 
 ###### disabled
 <pre><code>
-&lt;div&gt;
-	{{frost-text id="disabled" disabled=true}}
-&lt;div&gt;
+	{{frost-text id="disabled" <font color='#4CAF50'>disabled<font>=true}}
 </code></pre>
 
 <br>
 
-###### errored
+###### error
 <pre><code>
-&lt;div&gt;
-	{{frost-text id="errored" classNameBindings="errored"}}
-&lt;/div&gt;
+	{{frost-text id="error" classNameBindings="error"}}
 </code></pre>
 
 <br>
 
 ###### read-only
 <pre><code>
-&lt;div&gt;
-  {{frost-text id="read-only" readonly=true class="read-only" value="Read only text"}}
-&lt;/div&gt;
+  {{frost-text id="read-only" <font color='#4CAF50'>readonly</font>=true value="Read only text"}}
 </code></pre>
 
 <br>
 
-###### oninput
+###### on-input
 <pre><code>
-&lt;div&gt;
-  {{frost-text id="action" on-input=(action "text" )}}
-&lt;/div&gt;
+  {{frost-text id="action" <font color='#2196f3'>on-input</font>=(action <font color='#9C27B0'>"updatePassword"</font> )}}
 </code></pre>
 
 <br>
@@ -80,25 +72,6 @@ Run `ember test` from the root of the project to execute the test suite and outp
 <br>
 
 ##### Version History
-<table style="width:100%">
-	<tr>
-    <th>Date</th>
-    <th>Version</th>
-    <th>Changes</th>
-  </tr>
-	<tr>
-    <td>Nov. 25, 2015</td>
-    <td>1.0.0</td>		
-    <td>Adding readme file and cleaning up CSS.</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>		
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>		
-    <td></td>
-  </tr>
-</table>
+|Date             |Version   |Changes                                        |
+|-----------------|----------|-----------------------------------------------|
+|Nov. 25, 2015    |1.0.0     |Adding readme file and cleaning up CSS.        |

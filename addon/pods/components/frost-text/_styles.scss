@@ -7,6 +7,7 @@
 	background-color: inherit;
 	cursor: text;
 
+	&.errored,	// deprecated
   	&.error {
 	  border-bottom: 1px solid $frost-color-danger;
 	  color: $frost-color-danger;
