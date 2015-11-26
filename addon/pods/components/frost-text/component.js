@@ -9,4 +9,7 @@ export default Ember.TextField.extend({
 			this.attrs["on-input"]({id: this.get("id"), value: this.get("value")});
 		}
 	})
+}).reopenClass({
+	positionalParams: 'states'
 });
+

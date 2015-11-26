@@ -13,9 +13,9 @@
 	{{frost-text id="action" on-input=(action "text" )}}
 </div>
 
-<div class='dummy-header'>Errored</div>
+<div class='dummy-header'>Error</div>
 <div style="padding: 10px 20px;">
-	{{frost-text id="errored" classNameBindings="errored"}}
+	{{frost-text id="error" classNameBindings="error"}}
 	{{#frost-button on-click=(action "toggleError") class="small secondary"}}
 		<div class='text'>Toggle error</div>
 	{{/frost-button}}
@@ -23,10 +23,10 @@
 
 <div class='dummy-header'>Attributes - e.g. Disabled</div>
 <div style="padding: 10px 20px;">
-	{{frost-text id="disabled" disabled=true}}
+	{{frost-text  disabled id="disabled"}}
 </div>
 
 <div class='dummy-header'>Attributes - e.g. Read-only</div>
 <div style="padding: 10px 20px;">
-	{{frost-text id="read-only" readonly=true class="read-only" value="Read only text"}}
+	{{frost-text readonly id="read-only"  class="read-only" value="Read only text"}}
 </div>

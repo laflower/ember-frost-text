@@ -1,2 +1,12 @@
 frost-text component
+{{#each states as |state|}}
+	{{#if (eq state "disabled")   }}
+        {{bind-attr class="disabled"}}
+
+	{{/if}}
+{{/each}}
+
 {{yield}}
+
+
+
