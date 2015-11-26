@@ -10,35 +10,34 @@
 
 
 <br>
-#9C27B0 Context variables
-#00BCD4 Event variables
+
 ### Examples
 ###### <font color='#9C27B0'>State instance variables</font>
 
 ###### autofocus
 <pre><code>
-	{{frost-text id="basic" <font color='#4CAF50'>autofocus</font>=true}}
+  {{frost-text id="basic" <font color='#4CAF50'>autofocus</font>=true}}
 </code></pre>
 
 <br>
 
 ###### disabled
 <pre><code>
-	{{frost-text id="disabled" <font color='#4CAF50'>disabled<font>=true}}
+  {{frost-text id="disabled" <font color='#4CAF50'>disabled</font>=true}}
 </code></pre>
 
 <br>
 
 ###### error
 <pre><code>
-	{{frost-text id="error" classNameBindings="error"}}
+  {frost-text id="error" classNameBindings="<font color='#4CAF50'>error</font>"}}
 </code></pre>
 
 <br>
 
 ###### read-only
 <pre><code>
-  {{frost-text id="read-only" <font color='#4CAF50'>readonly</font>=true value="Read only text"}}
+  {{frost-text id="read-only" <font color='#4CAF50'>readonly</font>=true <font color='#E91E63'>value</font>="Read only text"}}
 </code></pre>
 
 <br>
