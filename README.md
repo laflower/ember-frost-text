@@ -9,48 +9,47 @@
 ###### <font color='#E91E63'>States (Attributes)</font> - `disabled` / `readonly` / `autofocus`
 ###### <font color='#4CAF50'>States (CSS)</font> - `error`
 
-
 <br>
 
 ### Examples
 ###### <font color='#9C27B0'>Context variables</font>
 ###### <font color='#00BCD4'>Event variables</font>
 
-###### autofocus
+##### autofocus
 <pre><code>
-  {{frost-text <font color='#E91E63'>autofocus</font>=true}}
+  {{frost-text <font color='#E91E63'>autofocus</font>=<font color='#9C27B0'>true</font>}}
 </code></pre>
 
 <br>
 
-###### disabled
+##### disabled
 <pre><code>
-  {{frost-text <font color='#E91E63'>disabled</font>=true}}
+  {{frost-text <font color='#E91E63'>disabled</font>=<font color='#9C27B0'>true</font>}}
 </code></pre>
 
 <br>
 
-###### error
+##### error
 <pre><code>
   {frost-text classNameBindings="<font color='#4CAF50'>error</font>"}}
 </code></pre>
 
 <br>
 
-###### read-only
+##### read-only
 <pre><code>
-  {{frost-text <font color='#E91E63'>readonly</font>=true <font color='#E91E63'>value</font>=<font color='#9C27B0'>"Read only text"</font>}}
+  {{frost-text <font color='#E91E63'>readonly</font>=<font color='#9C27B0'>true</font> <font color='#E91E63'>value</font>=<font color='#9C27B0'>"Read only text"</font>}}
 </code></pre>
 
 <br>
 
-###### on-input
-####### template
+##### on-input
+###### template
 <pre><code>
   {{frost-text <font color='#2196f3'>on-input</font>=(action <font color='#00BCD4'>"updatePassword"</font>)}}
 </code></pre>
 
-####### controller
+###### controller
 
 
 <br>
@@ -76,7 +75,8 @@ Run `ember test` from the root of the project to execute the test suite and outp
 
 <br>
 
-##### Version History
+#### Version History
+
 |Version   |Changes                                        |
 |----------|-----------------------------------------------|
 |1.0.0 |Initial version |
