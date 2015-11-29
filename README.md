@@ -10,20 +10,20 @@
 
 <br>
 
-### Examples <font size=2><font color='#FF9800'>EMBER KEYWORD</font> - <font color='#9C27B0'>BOUND DATA <font size=1>(downward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font></font>
+### Examples <font size=2><font color='#FF9800'>EMBER KEYWORDS</font> - <font color='#9C27B0'>BOUND ATTRIBUTES <font size=1>(downward flow)</font><font color='#673AB7'>BOUND DATA  <font size=1>(downward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font></font>
 ###### autofocus
-<pre><code>{{frost-text <font color='#E91E63'>autofocus</font>=<font color='#9C27B0'>true</font>}}</code></pre>
+<pre><code>{{frost-text <font color='#E91E63'>autofocus</font>=<font color='#673AB7'>true</font>}}</code></pre>
 
 <br>
 
 ###### disabled
-<pre><code>{{frost-text <font color='#E91E63'>disabled</font>=<font color='#9C27B0'>true</font>}}</code></pre>
+<pre><code>{{frost-text <font color='#E91E63'>disabled</font>=<font color='#673AB7'>true</font>}}</code></pre>
 
 <br>
 
 ###### error
 _controller.js_
-<pre><code><font color='#9C27B0'>isError</font>: true</code></pre>
+<pre><code><font color='#9C27B0'>isError</font>: <font color='#673AB7'>true</font></code></pre>
 
 _template.hbs_
 <pre><code>{frost-text <font color='#FF9800'>classNameBindings</font>="<font color='#9C27B0'>isError</font>:<font color='#4CAF50'>error</font>"}}</code></pre>
@@ -31,7 +31,7 @@ _template.hbs_
 <br>
 
 ###### read-only
-<pre><code>{{frost-text <font color='#E91E63'>readonly</font>=<font color='#9C27B0'>true</font> <font color='#E91E63'>value</font>=<font color='#9C27B0'>"Read only text"</font>}}</code></pre>
+<pre><code>{{frost-text <font color='#E91E63'>readonly</font>=<font color='#673AB7'>true</font> <font color='#E91E63'>value</font>=<font color='#673AB7'>"Read only text"</font>}}</code></pre>
 
 <br>
 
