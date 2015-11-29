@@ -10,7 +10,7 @@
 
 <br>
 
-### Examples <font size=2><font color='#FF9800'>EMBER KEYWORDS</font> - <font color='#9C27B0'>BOUND ATTRIBUTES <font size=1>(downward flow)</font> - <font color='#673AB7'>BOUND DATA  <font size=1>(downward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font></font>
+### Examples <font size=2><font color='#FF9800'>EMBER KEYWORDS</font> - <font color='#9C27B0'>BOUND ATTRIBUTES <font size=1>(downward flow)</font></font> - <font color='#673AB7'>BOUND DATA  <font size=1>(downward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font></font>
 ###### autofocus
 <pre><code>{{frost-text <font color='#E91E63'>autofocus</font>=<font color='#673AB7'>true</font>}}</code></pre>
 
