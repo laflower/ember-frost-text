@@ -22,7 +22,7 @@
 <br>
 
 ###### error
-_controller.js_ :arrow_down:
+_controller.js_
 <pre><code><font color='#9C27B0'>isError</font>: true</code></pre>
 
 _template.hbs_
