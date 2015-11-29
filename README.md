@@ -55,11 +55,10 @@ controller.js
 <pre><code>
   actions: {
     <font color='#2196f3'>updatePassword</font>(<font color='#00BCD4'>attrs</font>) {
-      console.log(<font color='#00BCD4'attrs.value</font>);
+      console.log(<font color='#00BCD4'>attrs.value</font>);
     }
   }
 </code></pre>
-
 
 <br>
 
@@ -86,7 +85,7 @@ Run `ember test` from the root of the project to execute the test suite and outp
 
 ### Version History
 
-|Version   |Changes                                        |
-|----------|-----------------------------------------------|
+|Version |Changes |
+|-|-|
 |1.0.0 |Initial version |
 |1.0.1 |Deprecating the 'errored' class in favor of 'error' |   
