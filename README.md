@@ -3,8 +3,7 @@
 
 <br>
 
-### Interface
-###### Key: <font color='#E91E63'>`attributes`</font> - <font color='#4CAF50'>`css`</font>
+### Interface <font size=5><font color='#E91E63'>`attributes`</font> - <font color='#4CAF50'>`css`</font></font>
 ###### Actions - <font color='#E91E63'>`on-input`</font>
 ###### Data - <font color='#E91E63'>`value`</font>
 ###### States - <font color='#E91E63'>`autofocus`</font> / <font color='#E91E63'>`disabled`</font> / <font color='#4CAF50'>`error`</font> / <font color='#E91E63'>`readonly`</font>
@@ -27,7 +26,7 @@
 <br>
 
 ###### error
-<pre><code>{frost-text classNameBindings="<font color='#4CAF50'>error</font>"}}</code></pre>
+<pre><code>{frost-text classNameBindings="<font color='#9C27B0'>isError</font>:<font color='#4CAF50'>error</font>"}}</code></pre>
 
 <br>
 
