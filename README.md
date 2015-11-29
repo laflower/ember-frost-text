@@ -12,44 +12,53 @@
 <br>
 
 ### Examples
-###### <font color='#9C27B0'>Context variables</font>
-###### <font color='#00BCD4'>Event variables</font>
+###### <font color='#9C27B0'>Bound data (downward flow)</font>
+###### <font color='#00BCD4'>Event data (upward flow)</font>
 
-##### autofocus
+<br>
+
+###### autofocus
 <pre><code>
   {{frost-text <font color='#E91E63'>autofocus</font>=<font color='#9C27B0'>true</font>}}
 </code></pre>
 
 <br>
 
-##### disabled
+###### disabled
 <pre><code>
   {{frost-text <font color='#E91E63'>disabled</font>=<font color='#9C27B0'>true</font>}}
 </code></pre>
 
 <br>
 
-##### error
+###### error
 <pre><code>
   {frost-text classNameBindings="<font color='#4CAF50'>error</font>"}}
 </code></pre>
 
 <br>
 
-##### read-only
+###### read-only
 <pre><code>
   {{frost-text <font color='#E91E63'>readonly</font>=<font color='#9C27B0'>true</font> <font color='#E91E63'>value</font>=<font color='#9C27B0'>"Read only text"</font>}}
 </code></pre>
 
 <br>
 
-##### on-input
-###### template
+###### on-input
+template.hbs
 <pre><code>
-  {{frost-text <font color='#2196f3'>on-input</font>=(action <font color='#00BCD4'>"updatePassword"</font>)}}
+  {{frost-text <font color='#2196f3'>on-input</font>=(action <font color='#2196f3'>"updatePassword"</font>)}}
 </code></pre>
 
-###### controller
+controller.js
+<pre><code>
+  actions: {
+    <font color='#2196f3'>updatePassword</font>(<font color='#00BCD4'>attrs</font>) {
+      console.log(<font color='#00BCD4'attrs.value</font>);
+    }
+  }
+</code></pre>
 
 
 <br>
@@ -75,7 +84,7 @@ Run `ember test` from the root of the project to execute the test suite and outp
 
 <br>
 
-#### Version History
+### Version History
 
 |Version   |Changes                                        |
 |----------|-----------------------------------------------|
