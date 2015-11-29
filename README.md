@@ -77,6 +77,7 @@ Run `ember test` from the root of the project to execute the test suite and outp
 <br>
 
 ##### Version History
-|Date             |Version   |Changes                                        |
-|-----------------|----------|-----------------------------------------------|
-|Nov. 25, 2015    |1.0.0     |Adding readme file and cleaning up CSS.        |
+|Version   |Changes                                        |
+|----------|-----------------------------------------------|
+|1.0.0 |Initial version |
+|1.0.1 |Deprecating the 'errored' class in favor of 'error' |   
