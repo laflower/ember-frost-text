@@ -22,7 +22,11 @@
 <br>
 
 ###### error
+_template.hbs_
 <pre><code>{frost-text <font color='#FF9800'>classNameBindings</font>="<font color='#9C27B0'>isError</font>:<font color='#4CAF50'>error</font>"}}</code></pre>
+
+_controller.js_
+<pre><code><font color='#9C27B0'>isError</font>: true</code></pre>
 
 <br>
 
