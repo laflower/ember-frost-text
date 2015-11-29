@@ -1,7 +1,7 @@
 import Ember from "ember";
 
 export default Ember.Controller.extend({
-	errored: true,
+	error: true,
 
 	actions: {
 		text(attrs) {
@@ -14,7 +14,7 @@ export default Ember.Controller.extend({
 		},
 
 		toggleError() {
-			this.toggleProperty('errored');
+			this.toggleProperty('error');
 		}
 	}
 });

@@ -1,6 +1,6 @@
 {
   "name": "frost-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -41,7 +41,8 @@
     "ember-lodash": "0.0.5",
     "ember-truth-helpers": "1.1.0",
     "liquid-fire": "0.21.2",
-	"frost-button": "^1.0.0"
+	"frost-button": "~1.0.0"
+
   },
   "keywords": [
     "ember-addon"
@@ -52,7 +53,7 @@
     "broccoli-merge-trees": "0.2.3",
     "broccoli-sass": "0.6.6",
     "ember-cli-htmlbars": "0.7.9",
-    "frost-css": "^1.0.12"
+    "frost-css": "~1.0.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
