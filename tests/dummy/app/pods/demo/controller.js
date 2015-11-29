@@ -2,7 +2,6 @@ import Ember from "ember";
 
 export default Ember.Controller.extend({
 	error: true,
-	errored: true,	// deprecated
 
 	actions: {
 		text(attrs) {
@@ -16,7 +15,6 @@ export default Ember.Controller.extend({
 
 		toggleError() {
 			this.toggleProperty('error');
-			this.toggleProperty('errored');	// deprecated
 		}
 	}
 });

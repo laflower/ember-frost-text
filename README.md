@@ -5,47 +5,53 @@
 
 ### Interface
 ###### <font color='#2196f3'>Actions</font> - `on-input`
-###### <font color='#E91E63'>Attributes</font> - `value`  
-###### <font color='#4CAF50'>States (CSS)</font> - `disabled` / `error` / `readonly` / `autofocus`
+###### <font color='#E91E63'>Data (Attributes)</font> - `value`
+###### <font color='#E91E63'>States (Attributes)</font> - `disabled` / `readonly` / `autofocus`
+###### <font color='#4CAF50'>States (CSS)</font> - `error`
 
 
 <br>
 
 ### Examples
-###### <font color='#9C27B0'>State instance variables</font>
+###### <font color='#9C27B0'>Context variables</font>
+###### <font color='#00BCD4'>Event variables</font>
 
 ###### autofocus
 <pre><code>
-  {{frost-text id="basic" <font color='#4CAF50'>autofocus</font>=true}}
+  {{frost-text <font color='#E91E63'>autofocus</font>=true}}
 </code></pre>
 
 <br>
 
 ###### disabled
 <pre><code>
-  {{frost-text id="disabled" <font color='#4CAF50'>disabled</font>=true}}
+  {{frost-text <font color='#E91E63'>disabled</font>=true}}
 </code></pre>
 
 <br>
 
 ###### error
 <pre><code>
-  {frost-text id="error" classNameBindings="<font color='#4CAF50'>error</font>"}}
+  {frost-text classNameBindings="<font color='#4CAF50'>error</font>"}}
 </code></pre>
 
 <br>
 
 ###### read-only
 <pre><code>
-  {{frost-text id="read-only" <font color='#4CAF50'>readonly</font>=true <font color='#E91E63'>value</font>="Read only text"}}
+  {{frost-text <font color='#E91E63'>readonly</font>=true <font color='#E91E63'>value</font>=<font color='#9C27B0'>"Read only text"</font>}}
 </code></pre>
 
 <br>
 
 ###### on-input
+####### template
 <pre><code>
-  {{frost-text id="action" <font color='#2196f3'>on-input</font>=(action <font color='#9C27B0'>"updatePassword"</font> )}}
+  {{frost-text <font color='#2196f3'>on-input</font>=(action <font color='#00BCD4'>"updatePassword"</font>)}}
 </code></pre>
+
+####### controller
+
 
 <br>
 
