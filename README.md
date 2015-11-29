@@ -3,15 +3,14 @@
 
 <br>
 
-### Interface <font size=5><font color='#E91E63'>`attributes`</font> - <font color='#4CAF50'>`css`</font></font>
+### Interface <font size=3><font color='#E91E63'>`ATTRIBUTES`</font> - <font color='#4CAF50'>`CSS`</font></font>
 ###### Actions - <font color='#E91E63'>`on-input`</font>
 ###### Data - <font color='#E91E63'>`value`</font>
 ###### States - <font color='#E91E63'>`autofocus`</font> / <font color='#E91E63'>`disabled`</font> / <font color='#4CAF50'>`error`</font> / <font color='#E91E63'>`readonly`</font>
 
 <br>
 
-### Examples
-###### Key: <font color='#9C27B0'>Bound data (downward flow)</font> - <font color='#00BCD4'>Event data (upward flow)</font> - <font color='#2196f3'>Action closure (upward function)</font>
+### Examples <font size=3><font color='#9C27B0'>BOUND DATA <font size=2>(downward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=2>(upward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=2>(upward flow)</font></font></font>
 
 <br>
 
