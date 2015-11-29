@@ -4,10 +4,10 @@
 <br>
 
 ### Interface
-###### Key: <font color='#E91E63'>Attributes</font> - <font color='#4CAF50'>CSS</font>
+###### Key: <font color='#E91E63'>`attributes`</font> - <font color='#4CAF50'>`css`</font>
 ###### Actions - <font color='#E91E63'>`on-input`</font>
 ###### Data - <font color='#E91E63'>`value`</font>
-###### <font color='#E91E63'>States</font> - <font color='#E91E63'>`autofocus`</font> / <font color='#E91E63'>`disabled`</font> / <font color='#4CAF50'>`error`</font> / <font color='#E91E63'>`readonly` / 
+###### States - <font color='#E91E63'>`autofocus`</font> / <font color='#E91E63'>`disabled`</font> / <font color='#4CAF50'>`error`</font> / <font color='#E91E63'>`readonly`</font>
 
 <br>
 
