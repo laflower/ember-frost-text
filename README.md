@@ -10,7 +10,7 @@
 
 <br>
 
-### Examples <font size=2><font color='#FF5722'>EMBER KEYWORD</font> - <font color='#9C27B0'>BOUND DATA <font size=1>(downward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font></font>
+### Examples <font size=2><font color='#FF9800'>EMBER KEYWORD</font> - <font color='#9C27B0'>BOUND DATA <font size=1>(downward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font></font>
 ###### autofocus
 <pre><code>{{frost-text <font color='#E91E63'>autofocus</font>=<font color='#9C27B0'>true</font>}}</code></pre>
 
@@ -22,7 +22,7 @@
 <br>
 
 ###### error
-<pre><code>{frost-text <font color='#FF5722'>classNameBindings</font>="<font color='#9C27B0'>isError</font>:<font color='#4CAF50'>error</font>"}}</code></pre>
+<pre><code>{frost-text <font color='#FF9800'>classNameBindings</font>="<font color='#9C27B0'>isError</font>:<font color='#4CAF50'>error</font>"}}</code></pre>
 
 <br>
 
@@ -33,10 +33,10 @@
 
 ###### on-input
 _template.hbs_
-<pre><code>{{frost-text <font color='#E91E63'>on-input</font>=(action <font color='#2196f3'>"updatePassword"</font>)}}</code></pre>
+<pre><code>{{frost-text <font color='#E91E63'>on-input</font>=(<font color='#FF9800'>action</font> <font color='#2196f3'>"updatePassword"</font>)}}</code></pre>
 
 _controller.js_
-<pre><code>actions: {
+<pre><code><font color='#FF9800'>actions</font>: {
   <font color='#2196f3'>updatePassword</font>(<font color='#00BCD4'>attrs</font>) {
     console.log(<font color='#00BCD4'>attrs.value</font>);
   }
