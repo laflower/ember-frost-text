@@ -4,16 +4,15 @@
 <br>
 
 ### Interface
-###### <font color='#E91E63'>Attributes</font> - <font color='#4CAF50'>CSS</font>
+###### Key: <font color='#E91E63'>Attributes</font> - <font color='#4CAF50'>CSS</font>
 ###### Actions - <font color='#E91E63'>`on-input`</font>
-###### <font color='#E91E63'>Data</font> - `value`
-###### <font color='#E91E63'>States</font> - `disabled` / `readonly` / `autofocus`
-###### <font color='#4CAF50'>States (CSS)</font> - `error`
+###### Data - <font color='#E91E63'>`value`</font>
+###### <font color='#E91E63'>States</font> - <font color='#E91E63'>`autofocus`</font> / <font color='#E91E63'>`disabled`</font> / <font color='#4CAF50'>`error`</font> / <font color='#E91E63'>`readonly` / 
 
 <br>
 
 ### Examples
-###### <font color='#9C27B0'>Bound data (downward flow)</font> - <font color='#00BCD4'>Event data (upward flow)</font> - <font color='#2196f3'>Action closure (upward function)</font>
+###### Key: <font color='#9C27B0'>Bound data (downward flow)</font> - <font color='#00BCD4'>Event data (upward flow)</font> - <font color='#2196f3'>Action closure (upward function)</font>
 
 <br>
 
