@@ -11,9 +11,6 @@
 <br>
 
 ### Examples <font size=2><font color='#9C27B0'>BOUND DATA <font size=1>(downward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font></font>
-
-<br>
-
 ###### autofocus
 <pre><code>{{frost-text <font color='#E91E63'>autofocus</font>=<font color='#9C27B0'>true</font>}}</code></pre>
 
