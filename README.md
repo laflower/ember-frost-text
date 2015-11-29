@@ -1,5 +1,5 @@
 ### Installation
-<pre><code>ember install <font color='#FF5722'>frost-text</font></code></pre>
+<pre><code>ember install frost-text</code></pre>
 
 <br>
 
@@ -10,7 +10,7 @@
 
 <br>
 
-### Examples <font size=2><font color='#9C27B0'>BOUND DATA <font size=1>(downward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font></font>
+### Examples <font size=2><font color='#FF5722'>EMBER KEYWORD</font> - <font color='#9C27B0'>BOUND DATA <font size=1>(downward flow)</font></font> - <font color='#00BCD4'>EVENT DATA <font size=1>(upward flow)</font></font> - <font color='#2196f3'>ACTION CLOSURE <font size=1>(upward flow)</font></font></font>
 ###### autofocus
 <pre><code>{{frost-text <font color='#E91E63'>autofocus</font>=<font color='#9C27B0'>true</font>}}</code></pre>
 
@@ -22,7 +22,7 @@
 <br>
 
 ###### error
-<pre><code>{frost-text classNameBindings="<font color='#9C27B0'>isError</font>:<font color='#4CAF50'>error</font>"}}</code></pre>
+<pre><code>{frost-text <font color='#FF5722'>classNameBindings</font>="<font color='#9C27B0'>isError</font>:<font color='#4CAF50'>error</font>"}}</code></pre>
 
 <br>
 
@@ -33,7 +33,7 @@
 
 ###### on-input
 _template.hbs_
-<pre><code>{{frost-text <font color='#2196f3'>on-input</font>=(action <font color='#2196f3'>"updatePassword"</font>)}}</code></pre>
+<pre><code>{{frost-text <font color='#E91E63'>on-input</font>=(action <font color='#2196f3'>"updatePassword"</font>)}}</code></pre>
 
 _controller.js_
 <pre><code>actions: {
@@ -47,8 +47,8 @@ _controller.js_
 ### Development
 
 ##### Setup
-<pre><code>git clone https://bitbucket.ciena.com/scm/nms_frost/<font color='#FF5722'>frost-text</font>.git
-cd <font color='#FF5722'>frost-text</font>
+<pre><code>git clone https://bitbucket.ciena.com/scm/nms_frost/frost-text.git
+cd frost-text
 npm install && bower install
 </code></pre>
 
