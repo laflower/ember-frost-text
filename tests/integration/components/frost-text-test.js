@@ -27,7 +27,7 @@ describeComponent(
       this.render(hbs`{{frost-text}}`);
       expect(this.$()).to.have.length(1);
     });
-	  it('actin is fired on input', function() {
+	  it('action is fired on input', function() {
 		  this.set('input', false);
 		  this.on('test-action', function() { this.set('input', true); });
 
