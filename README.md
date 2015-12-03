@@ -1,3 +1,5 @@
+### [Demo](https://bitbucket.ciena.com/pages/NMS_FROST/frost-text/gh-pages/browse/)
+
 ### Installation
 <pre><code>ember install frost-text</code></pre>
 
