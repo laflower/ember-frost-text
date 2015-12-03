@@ -1,5 +1,6 @@
-{{#frost-tabs frostTabs=tabs}}
-	{{#frost-tab id='readme'}}
+{{#frost-tabs on-change=(action 'tabSelected') selection=selectedTab}}
+
+	{{#frost-tab alias='Readme' id='readme'}}
         <div id='content'>
 			{{#frost-docs 'frost-text'}}
 
@@ -42,7 +43,7 @@
 			{{/frost-docs}}
         </div>
 	{{/frost-tab}}
-	{{#frost-tab id='demo' }}
+	{{#frost-tab alias='Demo' id='demo' }}
         <div id='content'>
 
             <div class='dummy-header'>Basic</div>

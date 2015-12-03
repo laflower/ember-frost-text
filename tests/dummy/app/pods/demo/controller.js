@@ -1,10 +1,12 @@
 import Ember from "ember";
 
 export default Ember.Controller.extend({
+	queryParams: ['selectedTab'],
+	selectedTab: 'readme',
 	error: true,
 
 	actions: {
-		text(attrs) {
+		text(attrs){
 			this.notifications.addNotification({
 				message: "value: '" + attrs.value + "'",
 				type: "success",
@@ -15,12 +17,12 @@ export default Ember.Controller.extend({
 
 		toggleError() {
 			this.toggleProperty('error');
+		},
+
+		tabSelected(tab) {
+			this.set('selectedTab', tab);
 		}
 	},
-	tabs: [
-		{id:'readme', title:'Readme', defaultTab:true},
-		{id:'demo', title:'Demo'}
-	],
 
 	// Readme examples
 	autofocus: {
