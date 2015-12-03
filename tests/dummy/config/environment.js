@@ -20,6 +20,10 @@ module.exports = function(environment) {
 		}
 	};
 
+	if (environment === 'production') {
+		ENV.baseURL = '/pages/NMS_FROST/frost-text/gh-pages/browse';
+	}
+
 	if (environment === 'development') {
 		// ENV.APP.LOG_RESOLVER = true;
 		// ENV.APP.LOG_ACTIVE_GENERATION = true;
