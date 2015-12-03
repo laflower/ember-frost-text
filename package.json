@@ -41,9 +41,9 @@
     "ember-lodash": "0.0.5",
     "ember-truth-helpers": "1.1.0",
     "liquid-fire": "0.21.2",
-	"frost-button": "~1.0.0",
-	"frost-tabs": "~1.0.0",
-	"frost-docs": "../frost-docs"
+    "frost-button": "~1.0.0",
+    "frost-tabs": "~1.0.0",
+    "frost-docs": "~1.0.0"
 
   },
   "keywords": [
