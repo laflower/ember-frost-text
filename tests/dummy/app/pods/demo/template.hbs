@@ -1,11 +1,8 @@
-{{#frost-tabs on-change=(action 'tabSelected') selection=selectedTab}}
-
+{{#frost-tabs class=(if iframe 'iframe') on-change=(action 'tabSelected') selection=selectedTab}}
 	{{#frost-tab alias='Readme' id='readme'}}
         <div id='content'>
 			{{#frost-docs 'frost-text'}}
-
 				{{#frost-docs-api}}
-
 					{{#frost-docs-api-category 'actions'}}
 						{{frost-docs-api-attribute 'on-input' 'triggers action'}}
 					{{/frost-docs-api-category}}
@@ -20,7 +17,6 @@
 						{{frost-docs-api-css 'error' 'indicates error'}}
 						{{frost-docs-api-attribute 'readonly' 'readonly element'}}
 					{{/frost-docs-api-category}}
-
 				{{/frost-docs-api}}
 
 				{{#frost-docs-examples}}
@@ -39,13 +35,11 @@
 					{{frost-docs-changelog-entry '1.0.0' "Initial version"}}
 					{{frost-docs-changelog-entry '1.0.1' "Deprecating the 'errored' class in favor of 'error'"}}
 				{{/frost-docs-changelog}}
-
 			{{/frost-docs}}
         </div>
 	{{/frost-tab}}
 	{{#frost-tab alias='Demo' id='demo' }}
         <div id='content'>
-
             <div class='dummy-header'>Basic</div>
             <div style="padding: 10px 20px;">
 				{{frost-text id="basic" autofocus=true}}
@@ -75,5 +69,4 @@
             </div>
         </div>
 	{{/frost-tab}}
-
 {{/frost-tabs}}

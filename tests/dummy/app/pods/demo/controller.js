@@ -1,7 +1,7 @@
 import Ember from "ember";
 
 export default Ember.Controller.extend({
-	queryParams: ['selectedTab'],
+	queryParams: ['iframe', 'selectedTab'],
 	selectedTab: 'readme',
 	error: true,
 
