@@ -29,10 +29,12 @@ describeComponent(
     });
     it('action is fired on input', function() {
       this.set('input', false);
-      this.on('test-action', function() { this.set('input', true); });
+      this.on('test-action', function() {this.set('input', true); });
 
-      this.render(hbs`{{frost-text id="action" on-input=(action "test-action" )}}`);
-      Ember.run(()=> $("#action").trigger("keyup").val('a'));
+      this.render(hbs`{{frost-text id="action" on-input=(action "test-action")}}`);
+      Ember.run(()=> {
+        $('#action').focus().val("Blah").focusout();
+      });
       assert.isTrue(this.get('input'), 'confirmed');
     });
   }
