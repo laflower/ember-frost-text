@@ -37,7 +37,7 @@ describeComponent(
 			});
 			Ember.run.next(this, () => {
 				assert.isTrue(this.get('input'), 'confirmed');
-			})
+			});
 		});
 	}
 );
