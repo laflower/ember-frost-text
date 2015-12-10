@@ -15,6 +15,26 @@ export default Ember.Controller.extend({
 			});
 		},
 
+		bind(attrs) {
+			this.set('boundText', attrs.value);
+			this.notifications.addNotification({
+				message: "bound value: '" + attrs.value + "'",
+				type: "success",
+				autoClear: true,
+				clearDuration: 2000
+			});
+		},
+
+		bind2(attrs) {
+			this.set('boundText', attrs.value);
+			this.notifications.addNotification({
+				message: "bound2 value: '" + attrs.value + "'",
+				type: "success",
+				autoClear: true,
+				clearDuration: 2000
+			});
+		},
+
 		toggleError() {
 			this.toggleProperty('error');
 		},
