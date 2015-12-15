@@ -1,6 +1,6 @@
 /* jshint expr:true */
 import Ember from 'ember';
-import { expect, assert } from 'chai';
+import { expect } from 'chai';
 import {
   describeComponent,
   it
@@ -28,12 +28,14 @@ describeComponent(
       expect(this.$()).to.have.length(1);
     });
 	  it('action is fired on input', function() {
-		  this.set('input', false);
-		  this.on('test-action', function() { this.set('input', true); });
+		  this.set('input-value', '');
+		  this.on('test-action', function(attrs) {
+			  this.set('input-value',attrs.value);
+		  });
 
 		  this.render(hbs`{{frost-text id="action" on-input=(action "test-action" )}}`);
-		  Ember.run(()=> $("#action").trigger("input").val('a'));
-		  assert.isTrue(this.get('input'), 'confirmed');
+		  Ember.run(()=> $("#action").val('a').trigger("input"));
+		  expect(this.get('input-value')).to.eql('a');
 	  });
   }
 );
