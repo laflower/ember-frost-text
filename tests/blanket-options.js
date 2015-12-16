@@ -1,8 +1,8 @@
 /* globals blanket, module */
 
 var options = {
-  modulePrefix: 'frost-button',
-  filter: '//.*frost-button/.*/',
+  modulePrefix: 'frost-text',
+  filter: '//.*frost-text/.*/',
   antifilter: '//.*(tests|template).*/',
   loaderExclusions: [],
   enableCoverage: true,
