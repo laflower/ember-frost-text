@@ -1,5 +1,5 @@
 .frost-text {
-	height: 30px;
+	height: 35px;
 	border: none;
 	border-bottom: 1px solid $frost-color-grey-6;
 	font-size: $frost-font-size-2;
@@ -37,7 +37,7 @@
 	}
 }
 
-.frost-text.full-border {
+.frost-text.outline {
   border: 1px solid $frost-color-grey-6;
   width: 250px;
 }
