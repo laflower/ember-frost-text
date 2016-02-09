@@ -4,18 +4,18 @@
 @import 'frost/patterns';
 
 .dummy-notification-container {
-	position: fixed;
-	top: 60px;
-	right: 10px;
-	z-index: 1060;
-	width: 80%;
-	max-width: 400px;
-	margin: auto;
+  position: fixed;
+  top: 60px;
+  right: 10px;
+  z-index: 1060;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
 }
 
 .dummy-body {
-	@include display(flex);
-	@include flex-direction(row);
+  @include display(flex);
+  @include flex-direction(row);
 }
 
 .dummy-navigation {
@@ -23,34 +23,34 @@
 }
 
 .dummy-content {
-	@include flex(1);
+  @include flex(1);
 }
 
 .dummy-input {
-	width: 800px;
+  width: 800px;
 }
 
 .dummy-header {
-	padding: 20px 0 10px 20px;
-	font-weight: bold;
+  padding: 20px 0 10px 20px;
+  font-weight: bold;
 }
 
 .dummy-padding {
-	padding: 20px 0 0 20px;
+  padding: 20px 0 0 20px;
 }
 
 .dummy-gap {
-	width: 5px;
+  width: 5px;
 }
 
 .dummy-svg-huge {
-	width: 1000px;
-	height: 1000px;
-	background-color: purple;
+  width: 1000px;
+  height: 1000px;
+  background-color: purple;
 }
 
 .frost-tabs.iframe {
   .navigation {
-	display: none;
+  display: none;
   }
 }
